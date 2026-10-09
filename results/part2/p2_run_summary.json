@@ -1,0 +1,26 @@
+{
+ "n_series": 1000,
+ "seeds": [
+  42,
+  43,
+  44,
+  45,
+  46
+ ],
+ "k_windows": 5,
+ "n_workers": 6,
+ "data_source": "huggingface",
+ "determinism": {
+  "identical": true,
+  "wape_e2_seed42_last": 0.3247769773006439
+ },
+ "times_sec": {
+  "load_subset": 3.0,
+  "prepare": 3.3,
+  "determinism": 65.7,
+  "train_all": 842.1,
+  "tests": 842.4
+ },
+ "total_sec": 843.5,
+ "sum_task_sec": 4318.1
+}
