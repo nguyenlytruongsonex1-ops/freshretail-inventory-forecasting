@@ -1,0 +1,13 @@
+# Phiên bản đã chạy kiểm chứng (Python 3.13.5, Linux x86_64, CPU), 03/10/2026
+numpy==2.5.3
+pandas==3.0.6
+pyarrow==25.0.1
+lightgbm==4.6.0
+torch==2.14.1          # máy có GPU NVIDIA: cài bản CUDA theo https://pytorch.org/get-started/locally/
+matplotlib==3.11.2
+huggingface_hub==2.1.1
+psutil==7.2.2
+# chạy notebook từ dòng lệnh
+papermill==2.7.0
+ipykernel==7.4.0
+nbformat==5.11.1

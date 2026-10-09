@@ -1,0 +1,22 @@
+# dữ liệu (tải từ Hugging Face, không commit)
+data/
+sources/
+*.parquet
+*.csv.gz
+# môi trường
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# đầu ra khi chạy notebook
+runs/
+outputs/
+outputs_*/
+notebooks/outputs_*/
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+# hệ thống
+.DS_Store
