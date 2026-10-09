@@ -20,3 +20,5 @@ notebooks/outputs_*/
 checkpoints/
 # hệ thống
 .DS_Store
+figures/
+notebooks/figures/
